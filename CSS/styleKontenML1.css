@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Zen+Kaku+Gothic+New:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+body{
+	font-family: 'Playfair Display', serif;
+}
+
+article{
+	padding-right: 20px;
+
+}
+
+article .news{
+	padding-right: 80px;
+}
+
+article .news .intro{
+	font-weight: 700;
+}
+
+.news img{
+	width: 100%;
+}
+
+article .news .caption{
+	font-family: 'Zen Kaku Gothic New', sans-serif;
+	font-size: 0.85em;
+	line-height:1.5;
+	margin-bottom: 6px;
+	
+}
+
+aside .item {
+	display: block;
+	margin-bottom: 30px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid white;
+}
+
+
+aside .item img{
+	width: 72px;
+    height: 72px;
+    padding-top: 3px;
+    margin-right: 10px;
+	float: left;
+}
+
+
+aside img{
+	background-color: rgb(234, 204, 160);
+    border-radius: 100%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.empty{
+	height: 400px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #ffc107;
+	text-decoration: underline;
+}
+
+a:visited{
+	color: grey;
+}
+
+ul.medsos-wrapper{
+	display: inline-flex;
+	list-style: none;
+	padding:0;
+}
+
+ul a:hover{
+	background-color: white;
+}
+
+
+
+ul li.medsos-item{
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	border-radius: 50%;
+	margin-right: 4px;
+
+}
+
+.medsos-item i{
+	font-size: 2em;
+	padding-left: 10px;
+	padding-top: 10px;
+
+}
+
+.contentweb{
+	padding-top: 80px;
+}
+
+.topikz {
+    height: 5px;
+}
+
+.politikkk {
+    color: white;
+    font-weight: 600;
+	border: 2px solid white;
+	border-radius: 15px;
+	background-color: #890c0c;
+}
